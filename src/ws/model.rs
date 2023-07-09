@@ -39,6 +39,8 @@ pub enum Type {
 
 /// Represents the response received from FTX, and is used for
 /// deserialization
+/// 
+/// 
 #[derive(Clone, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 #[serde(untagged)]
